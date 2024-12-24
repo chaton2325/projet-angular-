@@ -1,0 +1,64 @@
+/* Style global pour le formulaire */
+div {
+  margin-bottom: 1rem; /* Ajoute un espacement entre les champs */
+}
+
+label {
+  display: block; /* Place les étiquettes au-dessus des champs */
+  font-weight: bold; /* Met les étiquettes en gras */
+  margin-bottom: 0.5rem; /* Ajoute un espace sous les étiquettes */
+}
+
+input {
+  width: 100%; /* Les champs prennent toute la largeur du conteneur */
+  padding: 0.5rem; /* Ajoute un espace à l'intérieur des champs */
+  font-size: 1rem; /* Agrandit la police */
+  border: 1px solid #ccc; /* Bordure grise claire */
+  border-radius: 5px; /* Ajoute des coins arrondis */
+}
+
+input:focus {
+  outline: none; /* Supprime le contour par défaut */
+  border-color: #007bff; /* Change la couleur de la bordure au focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ajoute une lueur bleue */
+}
+
+button {
+  background-color: #007bff; /* Bleu principal */
+  color: white; /* Texte en blanc */
+  padding: 0.75rem 1.5rem; /* Espacement intérieur */
+  font-size: 1rem; /* Taille de la police */
+  border: none; /* Supprime les bordures */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Change le curseur au survol */
+  transition: background-color 0.3s ease; /* Animation au survol */
+}
+
+button:hover {
+  background-color: #0056b3; /* Couleur bleu foncé au survol */
+}
+
+button:active {
+  background-color: #003d80; /* Couleur plus foncée lors du clic */
+}
+
+button:disabled {
+  background-color: #ccc; /* Gris clair pour bouton désactivé */
+  cursor: not-allowed; /* Curseur interdit */
+}
+
+.container {
+  max-width: 400px; /* Largeur maximale du formulaire */
+  margin: 0 auto; /* Centrer le formulaire */
+  padding: 2rem; /* Espacement intérieur */
+  background-color: #f9f9f9; /* Fond légèrement gris */
+  border: 1px solid #ddd; /* Bordure légère */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre portée */
+}
+
+.container h2 {
+  text-align: center; /* Centrer le titre */
+  margin-bottom: 1rem; /* Ajouter un espacement sous le titre */
+  color: #333; /* Couleur texte foncée */
+}

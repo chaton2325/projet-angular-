@@ -1,0 +1,23 @@
+<div>
+  <label for="nom">Nom :</label>
+  <input id="nom" [(ngModel)]="employe.nom" placeholder="Entrez le nom" name="nom" />
+</div>
+
+<div>
+  <label for="prenom">Prénom :</label>
+  <input id="prenom" [(ngModel)]="employe.prenom" placeholder="Entrez le prénom" name="prenom" />
+</div>
+
+<div>
+  <label for="email">Email :</label>
+  <input id="email" type="email" [(ngModel)]="employe.email" placeholder="Entrez l'email" name="email" />
+</div>
+
+<div>
+  <label for="dateEmbauche">Date d'embauche :</label>
+  <input id="dateEmbauche" type="date" [(ngModel)]="employe.dateEmbauche" name="dateEmbauche" />
+</div>
+
+<div>
+  <button (click)="validateEmploye()">Valider</button>
+</div>
